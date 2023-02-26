@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/home")
+@CrossOrigin("*")
 @RequiredArgsConstructor
 public class HomePageController {
 

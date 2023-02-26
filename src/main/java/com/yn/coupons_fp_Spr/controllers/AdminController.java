@@ -19,7 +19,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("api/admin")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 
 public class AdminController {
 
