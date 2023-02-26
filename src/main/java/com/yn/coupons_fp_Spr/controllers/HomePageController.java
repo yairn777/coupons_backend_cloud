@@ -32,7 +32,7 @@ public class HomePageController {
     }
 
 
-    // TODO: 26/02/2023  
+    // TODO: 26/02/2023
     @GetMapping("/maxPrice")
     @ResponseStatus(HttpStatus.OK)
     public  List<Coupon>couponsByMaxPrice(@RequestParam double maxPrice){
