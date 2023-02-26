@@ -30,4 +30,12 @@ public class HomePageController {
     public  List<Coupon>couponsByCategory(@RequestParam Category category){
         return homePageService.couponsByCategory(category);
     }
+
+
+    // TODO: 26/02/2023  
+    @GetMapping("/maxPrice")
+    @ResponseStatus(HttpStatus.OK)
+    public  List<Coupon>couponsByMaxPrice(@RequestParam double maxPrice){
+        return null;
+    }
 }
